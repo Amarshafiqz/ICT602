@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ElectricBillEase" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary theme colors -->
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryVariant">#1565C0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FFC107</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <!-- Background and text -->
+        <item name="android:windowBackground">#FAFAFA</item>
+        <item name="android:textColor">#212121</item>
+
+        <!-- Rounded corners (Material 3) -->
+        <item name="shapeAppearanceSmallComponent">@style/RoundedCorners</item>
+    </style>
+
+    <style name="RoundedCorners" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>

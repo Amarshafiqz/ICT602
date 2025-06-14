@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ElectricBillEase</string>
+
+    <!-- Labels and UI Text -->
+    <string name="hint_units">Enter electricity usage (kWh)</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_save">Save to History</string>
+    <string name="btn_view_history">View History</string>
+    <string name="total_charges">Total Charges: RM %1$.2f</string>
+    <string name="final_cost">Final Cost: RM %1$.2f</string>
+    <string name="rebate">Rebate: %1$d%%</string>
+
+    <!-- Toasts and Errors -->
+    <string name="toast_enter_units">Please enter valid units</string>
+    <string name="toast_saved">Saved to history!</string>
+
+    <!-- App Months Array -->
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<!-- activity_detail.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/textMonth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Month:"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textUnits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Units:"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textRebate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rebate:"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Charges:"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Final Cost:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+</ScrollView>
